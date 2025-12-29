@@ -18,6 +18,41 @@ El objetivo principal es administrar el flujo de préstamos de material bibliogr
 * **Control de Usuarios:** Administración de lectores registrados.
 * **Circulación:** Registro de préstamos con fechas de salida, devolución esperada y real.
 * **Sanciones:** Generación de multas para devoluciones tardías (estructura preparada).
+🚀 Instrucciones de Ejecución
+Sigue estos pasos para desplegar la base de datos en tu entorno local.
+
+Prerrequisitos
+PostgreSQL (versión 12 o superior).
+
+pgAdmin 4 (o cualquier cliente SQL como DBeaver/Datagrip).
+
+Pasos de Instalación
+1) Clonar el repositorio: Descarga este proyecto en tu computadora.
+git clone [https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git](https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git)
+
+2) Crear la Base de Datos:
+
+Abre pgAdmin 4.
+
+Crea una nueva base de datos llamada Biblioteca_CICS (o el nombre que prefieras).
+
+3) Ejecutar el Script SQL:
+
+En pgAdmin, haz clic derecho sobre tu nueva base de datos y selecciona Query Tool (Herramienta de Consultas).
+
+Abre el archivo .sql incluido en este repositorio (Botón "Open File" o carpeta).
+
+Ejecuta todo el script presionando F5 o el botón de "Play".
+Verificación
+Una vez ejecutado, la base de datos se poblará automáticamente con:
+
+90+ Autores reales.
+
+90+ Libros clásicos y modernos.
+
+50 Usuarios ficticios.
+
+40 Préstamos con fechas aleatorias generadas dinámicamente.
 
 ## 🗂 Modelo Relacional (Diagrama ER)
 
