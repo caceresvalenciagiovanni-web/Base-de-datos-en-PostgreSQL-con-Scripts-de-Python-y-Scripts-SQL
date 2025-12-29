@@ -19,7 +19,7 @@ El objetivo principal es administrar el flujo de préstamos de material bibliogr
 * **Circulación:** Registro de préstamos con fechas de salida, devolución esperada y real.
 * **Sanciones:** Generación de multas para devoluciones tardías (estructura preparada).
 
-##🚀 Instrucciones de Ejecución
+## 🚀 Instrucciones de Ejecución
 Sigue estos pasos para desplegar la base de datos en tu entorno local.
 
 Prerrequisitos
